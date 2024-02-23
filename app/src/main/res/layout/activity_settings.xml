@@ -6,4 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".SettingsActivity">
 
+    <Button
+        android:id="@+id/removeTaskButton"
+        android:layout_width="256dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="57dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/addTaskButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="289dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="51dp"
+        android:text="Add Task"
+        app:layout_constraintBottom_toTopOf="@+id/returnButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/removeTaskButton" />
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="191dp"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTaskButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
